@@ -99,7 +99,6 @@
 2039,Cyprus Nicosia,35.17531,33.3642,Cyprus,2010,2,17,5,2010,11,6,2010,0,Nicosia,100-999,185,"Kurdish Syrians refugees, Kurdish Syrian Yekiti Party","political behavior, process",ignore,25
 5346,Kyrgyzstan Dzhalal Abad; Naryn,41.1328,72.08158,Kyrgyzstan,2013,9,5,3,2013,30,3,2013,0,Dzhalal Abad; Naryn,NA,100s,Ata Jurt party,"political behavior, process",ignore,25
 7188,Papua New Guinea Port Moresby,-9.47723,147.15089,Papua New Guinea,2016,1,15,5,2016,9,6,2016,1,Port Moresby,1000-1999,About 1000,University students,removal of politician,shootings,25
-9863,Vietnam Southern Vietnam,33.75667,-117.98444,Vietnam,2006,1,1,1,2006,26,1,2006,0,Southern Vietnam,NA,10000,factory workers,labor wage dispute,accomodation,25
 802,Bolivia Chapare,-16.80922,-65.71926,Bolivia,1997,3,20,4,1997,14,5,1997,1,Chapare,NA,7000,cocoa growers,"political behavior, process",crowd dispersal,24
 7522,Romania Bucharest,44.43225,26.10626,Romania,2012,1,12,1,2012,5,2,2012,1,Bucharest,1000-1999,1000s,unspecified,"political behavior, process",arrests,24
 1086,Bulgaria Sofia,42.69751,23.32415,Bulgaria,2013,4,23,10,2013,15,11,2013,0,Sofia,2000-4999,2000,university students,"political behavior, process",ignore,23
@@ -118,7 +117,6 @@
 7030,Pakistan Islamabad,33.72148,73.04329,Pakistan,2007,1,27,1,2007,17,2,2007,0,Islamabad,NA,200,female students,"political behavior, process",accomodation,21
 8439,Suriname Paramaribo,5.86638,-55.16682,Suriname,2010,1,18,2,2010,11,3,2010,0,Paramaribo,NA,50,health workers in the largest public hospital in Suriname,labor wage dispute,accomodation,21
 9692,Uzbekistan Fergana,40.38421,71.78432,Uzbekistan,2003,2,31,7,2003,21,8,2003,0,Fergana,NA,1400,Workers of a state owned chemical factory,labor wage dispute,ignore,21
-1729,Colombia southern Colombia,33.28985,-93.236,Colombia,1994,5,22,12,1994,11,1,1995,0,southern Colombia,NA,5000,putumayo peasant movement,"political behavior, process",accomodation,20
 2696,France Paris,48.85341,2.3488,France,1997,2,17,1,1997,6,2,1997,1,Paris,1000-1999,>1000,Credit Foncier employees,"political behavior, process",ignore,20
 6497,Namibia Windhoek,-22.55941,17.08323,Namibia,2010,3,12,7,2010,1,8,2010,1,Windhoek,50-99,>50,university students,labor wage dispute,ignore,20
 6571,Nepal Kathmandu,27.70169,85.3206,Nepal,1992,3,7,4,1992,27,4,1992,0,Kathmandu,NA,1000,youth,police brutality,ignore,20
@@ -5389,7 +5387,6 @@
 4788,Ivory Coast Bouake,7.69385,-5.03031,Ivory Coast,2008,4,17,6,2008,17,6,2008,1,Bouake,100-999,100s,former rebels,labor wage dispute,ignore,0
 4789,Ivory Coast Bouake,7.69385,-5.03031,Ivory Coast,2002,1,27,9,2002,27,9,2002,0,Bouake,1000-1999,1000+,protesters,"political behavior, process",ignore,0
 4790,Ivory Coast Bouake,7.69385,-5.03031,Ivory Coast,2008,3,16,6,2008,16,6,2008,1,Bouake,100-999,100s,former rebels,labor wage dispute,ignore,0
-4791,Ivory Coast northern Ivory Coast,40.6501,-73.94958,Ivory Coast,1997,1,11,4,1997,11,4,1997,1,northern Ivory Coast,100-999,>50,university students,"political behavior, process",ignore,0
 4792,Ivory Coast Seguela,7.96111,-6.67306,Ivory Coast,2008,5,2,7,2008,2,7,2008,0,Seguela,100-999,300,protesters,"political behavior, process",ignore,0
 4793,Jamaica Clarendon parish,17.98333,-77.3,Jamaica,2002,1,19,4,2002,19,4,2002,0,Clarendon parish,NA,1000,local residents,"political behavior, process",arrests,0
 4794,Jamaica Kingston,17.99702,-76.79358,Jamaica,1991,1,16,9,1991,16,9,1991,0,Kingston,NA,80,civil servants,labor wage dispute,ignore,0
@@ -7313,7 +7310,6 @@
 6943,Nigeria Maiduguri,11.84692,13.15712,Nigeria,2016,44,18,8,2016,18,8,2016,0,Maiduguri,100-999,500+,internally displaced persons,"political behavior, process",ignore,0
 6944,"Nigeria Maiduguri, Borno State",11.84692,13.15712,Nigeria,2014,1,14,1,2014,14,1,2014,0,"Maiduguri, Borno State",50-99,50,youths,"political behavior, process",ignore,0
 6945,"Nigeria Makurdi, Benue State",7.73375,8.52139,Nigeria,2001,2,24,11,2001,24,11,2001,1,"Makurdi, Benue State",50-99,50+,protesters,police brutality,crowd dispersal,0
-6946,Nigeria northern states of Nigeria,38.90539,-77.04914,Nigeria,2011,1,17,4,2011,17,4,2011,1,northern states of Nigeria,2000-4999,1000s,opposition supporters,"political behavior, process",crowd dispersal,0
 6947,Nigeria Ondo State,7.16667,5.08333,Nigeria,2016,52,29,10,2016,29,10,2016,1,Ondo State,50-99,50+,PDP members,removal of politician,crowd dispersal,0
 6948,Nigeria Onitsha,6.14978,6.78569,Nigeria,2015,1,3,12,2015,3,12,2015,1,Onitsha,100-999,100s,pro Biafran independence activists,"political behavior, process",shootings,0
 6949,Nigeria Osogbo,7.77104,4.55698,Nigeria,2017,18,11,7,2017,11,7,2017,1,Osogbo,50-99,50+,"Students and staff of Obafemi Awolowo University, Ile ife","political behavior, process",accomodation,0
