@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 800,
+  "height": 500,
+  "title": {
+    "text": "Most Violent Countries in Response to Protests (Countries with >50 protests)",
+    "fontSize": 16
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/DavidKontrobarsky/FIT3179/main/data/data_grouped_by_country_and_response_violent.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "country",
+      "title": "Country",
+      "axis": {"labelFontSize": 12},
+      "sort": ["Yemen", "Guinea", "Iran", "South Korea"]
+    },
+    "y": {
+      "field": "prop",
+      "type": "quantitative",
+      "scale": {"domain": [0, 1]},
+      "title": "Proportion of Response type",
+      "axis": {"grid": false}
+    },
+    "color": {
+      "field": "stateresponse1",
+      "type": "nominal",
+      "legend": {"title": "State Response", "type": "symbol"},
+      "sort": [
+        "Accomodation",
+        "Ignore",
+        "Crowd Dispersal",
+        "Arrests",
+        "Beatings",
+        "Shootings",
+        "Killings"
+      ]
+    },
+    "order": {"field": "order"}
+  },
+  "config": {}
+}
