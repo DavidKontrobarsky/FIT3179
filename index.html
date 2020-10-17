@@ -14,6 +14,12 @@
   
  <h2>This is the first visualisation</h2>
 <div id="vis2"></div>
+  
+   <h2>This is the first visualisation</h2>
+<div id="vis3"></div>
+  
+     <h2>This is the first visualisation</h2>
+<div id="vis4"></div>
 
 <script type="text/javascript">
   var spec = "https://davidkontrobarsky.github.io/FIT3179/location_of_all_protests_participants_channel - 1.json";
@@ -24,6 +30,18 @@
   var spec1 = "https://davidkontrobarsky.github.io/FIT3179/countries_violent.json";
   
   vegaEmbed('#vis2', spec1).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var spec2 = "https://davidkontrobarsky.github.io/FIT3179/countries_accomodating.json";
+  
+  vegaEmbed('#vis3', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var spec3 = "https://davidkontrobarsky.github.io/FIT3179/multiple_line_chart.json";
+  
+  vegaEmbed('#vis4', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
