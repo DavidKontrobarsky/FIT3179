@@ -1,31 +1,31 @@
-"","stateresponse1","country","n","prop"
-"1","accomodation","Central African Republic",1,0.0175438596491228
-"2","accomodation","Iran",8,0.0879120879120879
-"3","accomodation","South Korea",2,0.00813008130081301
-"4","accomodation","Yemen",3,0.0344827586206897
-"5","arrests","Central African Republic",1,0.0175438596491228
-"6","arrests","Guinea",16,0.242424242424242
-"7","arrests","Iran",20,0.21978021978022
-"8","arrests","South Korea",14,0.0569105691056911
-"9","arrests","Yemen",3,0.0344827586206897
-"10","beatings","Guinea",2,0.0303030303030303
-"11","beatings","Iran",16,0.175824175824176
-"12","beatings","South Korea",47,0.191056910569106
-"13","beatings","Yemen",2,0.0229885057471264
-"14","crowd dispersal","Central African Republic",23,0.403508771929825
-"15","crowd dispersal","Guinea",25,0.378787878787879
-"16","crowd dispersal","Iran",12,0.131868131868132
-"17","crowd dispersal","South Korea",40,0.16260162601626
-"18","crowd dispersal","Yemen",22,0.252873563218391
-"19","ignore","Central African Republic",21,0.368421052631579
-"20","ignore","Guinea",7,0.106060606060606
-"21","ignore","Iran",29,0.318681318681319
-"22","ignore","South Korea",141,0.573170731707317
-"23","ignore","Yemen",34,0.390804597701149
-"24","killings","Guinea",2,0.0303030303030303
-"25","killings","Iran",1,0.010989010989011
-"26","killings","Yemen",2,0.0229885057471264
-"27","shootings","Central African Republic",11,0.192982456140351
-"28","shootings","Guinea",14,0.212121212121212
-"29","shootings","Iran",5,0.0549450549450549
-"30","shootings","Yemen",21,0.241379310344828
+"","stateresponse1","country","n","prop","order"
+"1","accomodation","Central African Republic",1,0.0175438596491228,0
+"2","accomodation","Iran",8,0.0879120879120879,0
+"3","accomodation","South Korea",2,0.00813008130081301,0
+"4","accomodation","Yemen",3,0.0344827586206897,0
+"5","arrests","Central African Republic",1,0.0175438596491228,3
+"6","arrests","Guinea",16,0.242424242424242,3
+"7","arrests","Iran",20,0.21978021978022,3
+"8","arrests","South Korea",14,0.0569105691056911,3
+"9","arrests","Yemen",3,0.0344827586206897,3
+"10","beatings","Guinea",2,0.0303030303030303,4
+"11","beatings","Iran",16,0.175824175824176,4
+"12","beatings","South Korea",47,0.191056910569106,4
+"13","beatings","Yemen",2,0.0229885057471264,4
+"14","crowd dispersal","Central African Republic",23,0.403508771929825,2
+"15","crowd dispersal","Guinea",25,0.378787878787879,2
+"16","crowd dispersal","Iran",12,0.131868131868132,2
+"17","crowd dispersal","South Korea",40,0.16260162601626,2
+"18","crowd dispersal","Yemen",22,0.252873563218391,2
+"19","ignore","Central African Republic",21,0.368421052631579,1
+"20","ignore","Guinea",7,0.106060606060606,1
+"21","ignore","Iran",29,0.318681318681319,1
+"22","ignore","South Korea",141,0.573170731707317,1
+"23","ignore","Yemen",34,0.390804597701149,1
+"24","killings","Guinea",2,0.0303030303030303,6
+"25","killings","Iran",1,0.010989010989011,6
+"26","killings","Yemen",2,0.0229885057471264,6
+"27","shootings","Central African Republic",11,0.192982456140351,5
+"28","shootings","Guinea",14,0.212121212121212,5
+"29","shootings","Iran",5,0.0549450549450549,5
+"30","shootings","Yemen",21,0.241379310344828,5

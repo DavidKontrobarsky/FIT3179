@@ -1,28 +1,28 @@
-"","stateresponse1","country","n","prop"
-"1","accomodation","Bolivia",13,0.166666666666667
-"2","accomodation","Liberia",12,0.210526315789474
-"3","accomodation","Mexico",17,0.151785714285714
-"4","accomodation","Namibia",30,0.171428571428571
-"5","accomodation","Thailand",25,0.144508670520231
-"6","arrests","Bolivia",1,0.0128205128205128
-"7","arrests","Liberia",7,0.12280701754386
-"8","arrests","Mexico",4,0.0357142857142857
-"9","arrests","Thailand",4,0.023121387283237
-"10","beatings","Liberia",2,0.0350877192982456
-"11","beatings","Mexico",2,0.0178571428571429
-"12","beatings","Thailand",1,0.00578034682080925
-"13","crowd dispersal","Bolivia",31,0.397435897435897
-"14","crowd dispersal","Liberia",16,0.280701754385965
-"15","crowd dispersal","Mexico",13,0.116071428571429
-"16","crowd dispersal","Namibia",27,0.154285714285714
-"17","crowd dispersal","Thailand",25,0.144508670520231
-"18","ignore","Bolivia",33,0.423076923076923
-"19","ignore","Liberia",19,0.333333333333333
-"20","ignore","Mexico",73,0.651785714285714
-"21","ignore","Namibia",117,0.668571428571429
-"22","ignore","Thailand",116,0.670520231213873
-"23","killings","Liberia",1,0.0175438596491228
-"24","killings","Thailand",1,0.00578034682080925
-"25","shootings","Mexico",3,0.0267857142857143
-"26","shootings","Namibia",1,0.00571428571428571
-"27","shootings","Thailand",1,0.00578034682080925
+"","stateresponse1","country","n","prop","order"
+"1","accomodation","Bolivia",13,0.166666666666667,0
+"2","accomodation","Liberia",12,0.210526315789474,0
+"3","accomodation","Mexico",17,0.151785714285714,0
+"4","accomodation","Namibia",30,0.171428571428571,0
+"5","accomodation","Thailand",25,0.144508670520231,0
+"6","arrests","Bolivia",1,0.0128205128205128,3
+"7","arrests","Liberia",7,0.12280701754386,3
+"8","arrests","Mexico",4,0.0357142857142857,3
+"9","arrests","Thailand",4,0.023121387283237,3
+"10","beatings","Liberia",2,0.0350877192982456,4
+"11","beatings","Mexico",2,0.0178571428571429,4
+"12","beatings","Thailand",1,0.00578034682080925,4
+"13","crowd dispersal","Bolivia",31,0.397435897435897,2
+"14","crowd dispersal","Liberia",16,0.280701754385965,2
+"15","crowd dispersal","Mexico",13,0.116071428571429,2
+"16","crowd dispersal","Namibia",27,0.154285714285714,2
+"17","crowd dispersal","Thailand",25,0.144508670520231,2
+"18","ignore","Bolivia",33,0.423076923076923,1
+"19","ignore","Liberia",19,0.333333333333333,1
+"20","ignore","Mexico",73,0.651785714285714,1
+"21","ignore","Namibia",117,0.668571428571429,1
+"22","ignore","Thailand",116,0.670520231213873,1
+"23","killings","Liberia",1,0.0175438596491228,6
+"24","killings","Thailand",1,0.00578034682080925,6
+"25","shootings","Mexico",3,0.0267857142857143,5
+"26","shootings","Namibia",1,0.00571428571428571,5
+"27","shootings","Thailand",1,0.00578034682080925,5
