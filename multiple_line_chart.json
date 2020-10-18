@@ -1,9 +1,9 @@
-  
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": 800,
   "height": 500,
-  "title": "Change in State Response to Protests",
+  "title": {"text":"Year on Year Change in State Response to Protests",
+  "fontSize":16},
   "description": "Stock prices of 5 Tech Companies over Time.",
   "data": {
     "url": "https://raw.githubusercontent.com/DavidKontrobarsky/FIT3179/main/data/data_grouped.csv"
