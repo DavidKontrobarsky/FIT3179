@@ -2,7 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": 800,
   "height": 500,
-  "title": "Major Political Protests between 1990 and 2018",
+  "title": {"text":"Major Political Protests Between 1990 and 2018",
+  "fontSize":16},
   "projection": {"type": "equalEarth"},
   "layer": [
     {
