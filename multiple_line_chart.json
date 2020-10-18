@@ -20,7 +20,8 @@
     "color": {
       "field": "stateresponse1",
       "type": "nominal",
-      "legend": {"title": "State Response"}
+      "legend": {"title": "State Response"},
+      "sort": ["Accomodation","Ignore","Crowd Dispersal","Arrests","Beatings","Shootings","Killings"]
     }
   },
   "config": {}
