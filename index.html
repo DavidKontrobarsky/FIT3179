@@ -33,6 +33,39 @@
             <p>
                 To use this layout, you can just copy paste the HTML, along with the CSS in <a href="/layouts/side-menu/styles.css" alt="Side Menu CSS">side-menu.css</a>, and the JavaScript in <a href="/js/ui.js">ui.js</a>. The JS file uses vanilla JavaScript to simply toggle an <code>active</code> class that makes the menu responsive.
             </p>
+            
+            <div id="vis1"></div>
+            <div id="vis2"></div>
+            <div id="vis3"></div>
+            <div id="vis4"></div>
+            
+            <script type="text/javascript">
+  var spec = "https://davidkontrobarsky.github.io/FIT3179/location_of_all_protests_participants_channel - 1.json";
+  vegaEmbed('#vis1', spec).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var spec1 = "https://davidkontrobarsky.github.io/FIT3179/countries_violent.json";
+  
+  vegaEmbed('#vis2', spec1).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var spec2 = "https://davidkontrobarsky.github.io/FIT3179/countries_accomodating.json";
+  
+  vegaEmbed('#vis3', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var spec3 = "https://davidkontrobarsky.github.io/FIT3179/multiple_line_chart.json";
+  
+  vegaEmbed('#vis4', spec3).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+</script>
+            
+            
+
 
             <h2 class="content-subhead">Now Let's Speak Some Latin</h2>
             <p>
