@@ -1,0 +1,41 @@
+{
+  "title": {
+    "text": "Effect of Number of Participants and Duration on Protest Outcome",
+    "fontSize": 16
+  },
+  "width": 800,
+  "height": 500,
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/DavidKontrobarsky/FIT3179/main/data/protests_with_coordinates_2_.csv"
+  },
+  "mark": "rect",
+  "encoding": {
+    "y": {
+      "field": "stateresponse1",
+      "type": "ordinal",
+      "sort": [
+        "Killings",
+        "Shootings",
+        "Beatings",
+        "Arrests",
+        "Crowd Dispersal",
+        "Ignore",
+        "Accomodation"
+      ],
+      "title": "State Response"
+    },
+    "x": {
+      "field": "participants_category",
+      "type": "nominal",
+      "sort": ["50-99", "100-999", "1000-1999", "2000-4999"],
+      "title": "Participants Numbers"
+    },
+    "color": {
+      "aggregate": "mean",
+      "field": "protest_length",
+      "legend": {"title": "Average Length in Days"}
+    }
+  },
+  "config": {"axis": {"grid": true, "tickBand": "extent"}}
+}
