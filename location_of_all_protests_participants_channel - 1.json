@@ -13,11 +13,14 @@
       },
       "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
     },
+    
     {
       "data": {
         "url": "https://raw.githubusercontent.com/DavidKontrobarsky/FIT3179/main/data/protests_with_coordinates_2_.csv"
       },
       "transform": [{"filter": "datum.protest_length > 0"}],
+      
+      
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"}
@@ -29,7 +32,8 @@
             "size": {
               "field": "protest_length",
               "type": "quantitative",
-              "scale": {"domain": [1, 329]},
+              "scale": {"domain": [1,329]
+},
               "legend": {"title": "Duration of Protest in Days"}
             },
             "color": {
@@ -45,12 +49,37 @@
               ],
               "scale": {"scheme": "reds"},
               
+              
               "legend": {"title": "Number of Participants", "type": "symbol"}
-            }
-          }
+            },
+            "opacity": {
+ "condition": {"selection": "continent_highlight", "value": 0.6},
+ "value": 0
+ },
+            "tooltip":[{"field":"country", "title":"Country"},{"field":"year","title":"Year"}, {"field":"participants_category","title":"Number of Participants"},{"field":"protest_length", "title":"Length in days"}, {"field":"stateresponse1","title":"State Response"}]
+          },
+          "selection": {
+ "continent_highlight": {
+ "type": "multi",
+ "fields": ["participants_category"],
+ "bind": "legend"
+ }
+ 
+ }
         }
+
+        
+
+ 
+
+ 
+
+        
+
+        
       ]
     }
   ],
+
   "config": {}
 }
