@@ -3,7 +3,7 @@
     "text": "Effect of Number of Participants and Duration on Protest Outcome",
     "fontSize": 20
   },
-  "width": 750,
+  "width": 800,
   "height": 500,
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "data": {
