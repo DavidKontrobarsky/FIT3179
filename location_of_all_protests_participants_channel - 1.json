@@ -12,14 +12,7 @@
         "format": {"type": "topojson", "feature": "custom"}
       },
       
-      "selection": {
-        "year":{"type":"single",
-        "fields":["year"],
-        "bind":{
-          "Year":{"input": "range"}
-        }
-        
-      }},
+      
       "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
     },
     {
