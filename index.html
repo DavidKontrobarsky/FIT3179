@@ -79,6 +79,8 @@
             </p>
             <div id="vis5"></div>
             
+            <div id="vis6"></div>
+            
             <script type="text/javascript">
   var spec = "https://davidkontrobarsky.github.io/FIT3179/location_of_all_protests_participants_channel - 1.json";
   vegaEmbed('#vis1', spec).then(function(result) {
@@ -107,7 +109,13 @@
   
   vegaEmbed('#vis5', spec4).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);              
+  }).catch(console.error);     
+                
+  var spec5 = "https://davidkontrobarsky.github.io/FIT3179/slopegraph.json";
+  
+  vegaEmbed('#vis6', spec5).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error); 
                 
 </script>
             
