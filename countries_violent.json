@@ -3,8 +3,8 @@
   "width": 800,
   "height": 500,
   "title": {
-    "text": "Most Violent Countries in Response to Protests (Countries with >50 protests)",
-    "fontSize": 16
+    "text": "Most Violent Countries in Response to Protests",
+    "fontSize": 20
   },
   "data": {
     "url": "https://raw.githubusercontent.com/DavidKontrobarsky/FIT3179/main/data/data_grouped_by_country_and_response_violent.csv"

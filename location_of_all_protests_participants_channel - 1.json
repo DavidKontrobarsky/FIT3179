@@ -3,7 +3,7 @@
   "width": 800,
   "height": 500,
   "title": {"text":"Major Political Protests Between 1990 and 2018",
-  "fontSize":16},
+  "fontSize":20},
   "projection": {"type": "equalEarth"},
   "layer": [
     {
