@@ -21,12 +21,14 @@
     "y": {
       "field": "prop",
       "type": "quantitative",
-      "title": "Proportion of Total Protests"
+      "title": "Proportion of Total Protests",
+      "axis": {"grid": false}
     },
     "color": {
       "field": "stateresponse1",
       "type": "nominal",
-      "legend": {"title": "State Response"}
+      "legend": {"title": "State Response"},
+      "sort":["Accomodation","Ignore","Crowd Dispersal","Arrests","Beatings","Shootings","Killings"]
     }
   },
   "config": {}
