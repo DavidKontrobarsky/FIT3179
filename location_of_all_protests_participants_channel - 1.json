@@ -52,11 +52,18 @@
               "scale": {"scheme": "yelloworangered"},
               
               
+              
               "legend": {"title": "Number of Participants", "type": "symbol"}
+            
             },
+            "opacity": {"condition": {"selection": "test", "value": 0.8},
+ "value": 0
+},
             
             "tooltip":[{"field":"country", "title":"Country"},{"field":"year","title":"Year"}, {"field":"participants_category","title":"Number of Participants"},{"field":"protest_length", "title":"Length in days"}, {"field":"stateresponse1","title":"State Response"}]
-          }
+          },
+          "selection": {"test":{"type": "multi", "fields": ["participants_category"],"bind":"legend"}}
+          
         }
 
         
