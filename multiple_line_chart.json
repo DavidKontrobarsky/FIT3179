@@ -10,7 +10,7 @@
   },
   "mark": "line",
   "encoding": {
-    "x": {"field": "year", "type": "temporal", "title": "Year"},
+    "x": {"field": "year", "type": "temporal", "title": "Year","axis": {"grid": false}},
     "y": {
       "field": "prop",
       "type": "quantitative",
