@@ -49,7 +49,7 @@
                 "5000-10000",
                 ">10000"
               ],
-              "scale": {"scheme": "reds"},
+              "scale": {"scheme": "yelloworangered"},
               
               
               "legend": {"title": "Number of Participants", "type": "symbol"}
