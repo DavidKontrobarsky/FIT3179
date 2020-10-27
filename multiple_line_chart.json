@@ -4,7 +4,7 @@
   "height": 500,
   "title": {"text":"Year on Year Change in State Response to Protests",
   "fontSize":20},
-  "description": "Stock prices of 5 Tech Companies over Time.",
+  "description": "Year on Year Change in State Response to Protests",
   "data": {
     "url": "https://raw.githubusercontent.com/DavidKontrobarsky/FIT3179/main/data/data_grouped.csv"
   },
